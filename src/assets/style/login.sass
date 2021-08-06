@@ -1,0 +1,86 @@
+.login-container
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    height: 100vh
+    padding-top: .8rem
+    padding-left: .65rem
+    padding-right: .65rem
+    z-index: 99
+    background: #fff
+    ::v-deep .van-popup--center
+        width: 6rem
+        height: 4.30rem
+        border-radius: 10px
+        ul
+            display: flex
+            flex-direction: column
+            li
+                padding: 0 0.45rem
+                text-align: left
+                line-height: 1rem
+    .avator
+        width: .85rem
+        height: .85rem
+        font-size: .28rem
+        color: #fff
+        text-align: center
+        line-height: .85rem
+        border-radius: 5px
+        background: #0088fe
+    .login-name
+        color: #000
+        padding: 0.60rem 0
+        font-size: 0.46rem
+        font-weight: bold
+    .input-title
+        font-size: .22rem
+        margin-top: .28rem
+    .form-item
+        padding: 0.30rem 0
+        font-size: 0.28rem
+        border-bottom: 1px solid #e2e4e4
+    .to-login
+        width: 6rem
+        height: .90rem
+        background: #9ad0ff
+        border-radius: 10px
+        color: #fff
+        margin-top: .30rem
+    .w-pwd
+        font-size: .18rem
+        line-height: .7rem
+    .yd
+        font-size: .22rem
+    .qt
+        position: absolute
+        bottom: 0
+        left: 0
+        text-align: center
+        width: 100%
+        font-size: .28rem
+        display: flex
+        flex-direction: column
+        align-items: center
+        &>p
+            padding: 0.30rem 0
+        ul
+            display: flex
+            margin-bottom: .50rem
+            li
+                padding: 0 .25rem
+                border-left: 1px solid #eaeaec
+        ul li:nth-child(1)
+                border: none
+        div
+            width: 100% 
+            line-height: 1.10rem
+            background: #f0f0f2
+                
+.ml60
+    margin-left: .60rem
+.v-enter, .v-leave-to
+    transform: translateX(100%)
+.v-enter-active, .v-leave-active
+    transition: .5s

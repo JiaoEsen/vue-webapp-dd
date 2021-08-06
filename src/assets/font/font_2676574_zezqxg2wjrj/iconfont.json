@@ -1,0 +1,44 @@
+{
+  "id": "2676574",
+  "name": "DD",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1277702",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "1703535",
+      "name": "通讯录",
+      "font_class": "tongxunlu",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "6978163",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "7140472",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e73c",
+      "unicode_decimal": 59196
+    },
+    {
+      "icon_id": "16242812",
+      "name": "M_钉钉2",
+      "font_class": "M_dingding2",
+      "unicode": "e755",
+      "unicode_decimal": 59221
+    }
+  ]
+}

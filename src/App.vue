@@ -1,32 +1,35 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <!-- <div>
+      <video controls src="./assets/video/sdahjsdv.mp4"></video>
+    </div> -->
+    <main id="app-main">
+        <router-view/>
+    </main>
+    <div class="tabTab-box">
+      <my-tab-bar />
     </div>
-    <router-view/>
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+<script>
+import MyTabBar from './components/MyTabBar.vue';
+export default {
+  components: {
+    MyTabBar
   }
 }
+</script>
+
+<style lang="sass" scoped>
+#app
+  width: 7.5rem
+  margin: 0 auto
+  #app-main
+    overflow: hidden
+  .tabTab-box
+    width: 100%
+    position: fixed
+    bottom: 0
+  
 </style>
